@@ -1,0 +1,88 @@
+/* Global */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #f5f9ff);
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #2d6a4f;
+  padding: 18px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #f1faee;
+  letter-spacing: 0.5px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+}
+
+/* Button styles */
+button {
+  margin: 8px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #457b9d;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+button:hover {
+  background: #1d3557;
+  transform: translateY(-2px);
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+}
+
+/* Container */
+.container {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Card */
+.card {
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin: 15px 0;
+  width: 80%;
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+/* Form elements */
+input {
+  padding: 10px 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: 0.2s ease;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2a9d8f;
+  box-shadow: 0px 0px 5px rgba(42, 157, 143, 0.3);
+}
+
+/* Headings */
+h2 {
+  color: #2d6a4f;
+  margin-bottom: 12px;
+  font-size: 20px;
+}
